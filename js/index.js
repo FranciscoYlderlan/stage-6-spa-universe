@@ -7,15 +7,15 @@ window.route = () => router.route();
 window.onpopstate = () => router.handle();
 
 
-router.add("/","./pages/home.html");
-router.add("/home", "./pages/home.html");
-router.add("/index.html","./pages/home.html");
-router.add("/universe", "./pages/universe.html");
-router.add("/exploration","./pages/exploration.html");
+router.add("/","https://github.com/FranciscoYlderlan/stage-6-spa-universe/blob/main/pages/home.html");
+router.add("/home", "https://github.com/FranciscoYlderlan/stage-6-spa-universe/blob/main/pages/home.html");
+router.add("/index.html","https://github.com/FranciscoYlderlan/stage-6-spa-universe/blob/main/pages/home.html");
+router.add("/universe", "https://github.com/FranciscoYlderlan/stage-6-spa-universe/blob/main/pages/universe.html");
+router.add("/exploration","https://github.com/FranciscoYlderlan/stage-6-spa-universe/blob/main/pages/exploration.html");
 
 router.handle()
 
-
+/exploration.html
 
 
 

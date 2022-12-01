@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página baseada em Single Page Aplication com conceitos sobre o universo">
+        <title>SPA Universe</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="./js/index.js" type="module" defer></script>
+    </head>
+    <body>
+        <div class="background"><img src="./assets/universe.png" alt="Paisagem noturna de montanhas e céu estrelado"></div>
+         <header>
+            <nav>
+                <ul>
+                    <li><a href="/home" onclick="route()"><img src="assets/Vector.svg" alt="Logomarca SPA Universe"> Home</a></li> 
+                    <li><a href="/universe" onclick="route()">O Universo</a></li>
+                    <li><a href="/exploration" onclick="route()">Exploração</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="app"></div>
+    </body>
+</html>

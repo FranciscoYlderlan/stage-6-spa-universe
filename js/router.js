@@ -1,3 +1,4 @@
+
 import { menu } from "./menu.js";
 export class Router {
     routes = {};
@@ -37,4 +38,5 @@ export class Router {
         })
     
     }
+
 }
